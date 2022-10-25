@@ -1,0 +1,259 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: antiquewhite
+	/*background-image: url(http://c-ssl.duitang.com/uploads/item/202004/14/20200414174128_hhlsv.thumb.1000_0.jpeg);
+	background-repeat:repeat-y;
+	background-size: contain;*/
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.itemarea{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	overflow: hidden;
+    
+}
+.card{
+	display: flex;
+	align-items: center;
+	width: 860px;
+    background-color: rgb(221, 193, 159);
+    }
+.shoeBackground{
+	position: relative;
+	width: 50%;
+	height: 600px;
+	box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+	0 -15px 35px rgba(0, 0, 0, 0.1),
+	0 15px 35px rgba(0, 0, 0, 0.1);
+	transition: .5s;
+    
+}
+.itemarea .pic{
+margin-top:40px;
+margin-right:150px;
+margin-bottom: 15px;
+width: 300px;
+height: 400px;
+}
+.itemarea .pic img{
+	margin-top: 20px;
+	width: 330px;
+	height: 430px;
+	margin-left:49px ;
+}
+/*.itemarea .pic1{
+	width: 200px;
+	height: 200px;
+}*/
+.itemarea .list{
+	display: flex;
+}
+
+.itemarea .list li{
+	margin: auto;
+	margin-top: 60px;
+}
+.itemarea .list img{
+	display: block;
+	width: 60px;
+	height: 70px;
+}
+/*.itemarea .detail{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 400px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #888;
+}*/
+.itemarea .list .current{
+	border: 1px solid rgba(230, 230, 235, 0.393);
+	
+}
+.logo{
+	position: absolute;
+	width: 90px;
+	top: -10px;
+	left: 1px;
+}
+.share{
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color:palevioletred;
+	transition: .5s;
+}
+.share:hover{
+	transform: scale(1.1);
+}
+.share i{
+	line-height: 55px;
+}
+/*.nike{
+	position: absolute;
+	top: 85px;
+	left: 15px;
+	font-size: 11rem;
+	text-transform: uppercase;
+	line-height: .9;
+	color: #fff;
+	opacity: .1;
+}*/
+.info{
+	width: 50%;
+	height: 600px;
+	background-color: rgb(229, 160, 160);
+	z-index: 1;
+	padding: 0px 40px;
+	box-shadow: 50px 20px 50px rgba(123, 71, 71, 0.1),
+	0 -15px 35px rgba(232, 34, 34, 0.1),
+	0 15px 35px rgba(185, 2, 2, 0.269);
+}
+.shoeName{
+	padding: 0 0 0px 0;
+}
+.shoeName div{
+	display: flex;
+	align-items: center;
+}
+.shoeName div .big{
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	font-size: 2rem;
+	color: #333;
+	line-height: 1;
+}
+.shoeName .small{
+	margin-top: 20px;
+	font-weight: 500;
+	color: whitesmoke;
+	margin-top: 0px;
+	text-transform: capitalize;
+}
+.shoeName, .description, .color-container, .size-container{
+	border-bottom: 1px solid #dadada;
+}
+.description{
+	padding: 5px 0;
+}
+.title{
+	left: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #3a3a3a;
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+.text{
+	color: #555;
+	font-size: 17px;
+}
+.size-container{
+	padding: 10px 0;
+	margin-bottom: 10px;
+    }
+.sizes{
+	padding: 8px 0;
+	display: flex;
+	align-items: center;
+    }
+.size{
+	width: 40px;
+	height: 40px;
+	border-radius: 6px;
+	background-color: #eee;
+	margin: 0 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: .3s;
+}
+.size:hover{
+    background-color: rgb(239, 165, 69);
+    transform: scale(1.1);
+}
+.buy-price{
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.price{
+	color: #333;
+	display: flex;
+	align-items: flex-start;
+}
+.price h1{
+	font-size: 2.1rem;
+	font-weight: 600;
+	line-height: 1;
+	color: whitesmoke;
+}
+.price b{
+    font-size: 2rem;
+    margin-right: 1px;
+	margin-top: -5px;
+}
+.buy{
+	padding: .7rem 1rem;
+	background-color: lightpink;
+	text-decoration: none;
+	color: rgb(233, 235, 240);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 1.1rem;
+	transition: .5s;
+}
+.buy:hover{
+	transform: scale(1.1);
+	background-color: rgb(173, 194, 226);
+}
+.buy i{
+    margin-right: 2px;
+}
+marquee{
+	/*background-color: rgb(212, 164, 86);*/
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.illustration {
+	justify-content: center;
+	text-align: center;
+}
+.backtotop{
+    margin:50px ;
+}
+.backtotop a{
+    color: rgb(15, 14, 14);
+    font-size: 20px;
+	padding: 45%;
+}

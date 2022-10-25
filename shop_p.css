@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+	/* 渐变背景 */
+	background: linear-gradient(125deg,#a8acaf,#82beb6,#86b9dc,#e74c3c,#8e44ad);
+	/* 指定背景图像的大小 */
+	background-size: 500%;
+	/* 执行动画：动画名 时长 线性的 无限次播放 */
+	animation: bgAnimation 10s linear infinite;
+}
+/* 定义动画 */
+@keyframes bgAnimation {
+    0%{
+        background-position: 100% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+	75%{
+		background-position: 50% 100%;
+	}
+    100%{
+        background-position: 50% 50%;
+    }
+}
+
+.nav{
+	height: 50px;
+	background:url(https://w.wallhaven.cc/full/eo/wallhaven-eo6w2l.jpg) ;
+	}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h2{
+	color: antiquewhite;
+}
+
+.clear{
+	clear: both;
+}
+
+.itemarea{
+	position: relative;
+	width: 400px;
+	height: 480px;
+	background-color:skyblue;
+	border: 1px solid #888;
+	float: left;
+	margin-top: 20px;
+	margin-left: 250px ;
+	
+}
+
+.itemarea .pic{
+margin-bottom: 15px;
+width: 300px;
+height: 400px;
+}
+.itemarea .pic img{
+	margin-top: 20px;
+	width: 300px;
+	height: 380px;
+	margin-left:50px ;
+}
+/*.itemarea .pic1{
+	width: 200px;
+	height: 200px;
+}*/
+
+
+.itemarea .list{
+	display: flex;
+}
+
+
+.itemarea .list li{
+	margin: auto;
+	
+}
+.itemarea .list img{
+	display: block;
+	width: 60px;
+	height: 55px;
+	
+}
+/*.itemarea .detail{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 400px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #888;
+}*/
+.itemarea .list .current{
+	border: 1px solid blue;
+}
+.chose{
+	width: 400px;
+	height: 480px;
+	float: left;
+	
+	margin-left: 50px;
+}
+.chose .name{
+	color: rgb(92, 223, 225);
+	text-align: left;
+
+}
+
+.chose .dropdown{
+	text-align: justify;
+}
+.price{
+	text-align: left;
+	
+}
+.chose .option{
+	margin: 5px;
+	height: 30px;
+	margin-bottom: 20px;
+	border: 2px;
+	background-color: rgb(110, 195, 199);
+}
+
+#number{
+	width: 70px;
+	height: 30px;
+	margin-bottom: 30px;
+	border: 1px solid snow;
+	background-color: rgb(79, 181, 181);
+	border-radius: 5px;
+}
+.chose .btn{
+	background-color: rgba(39, 130, 135, 0.735);
+	color: aliceblue;
+	width: 150px;
+	height: 40px;
+	margin-top: 30px;
+	border: 1px solid rgb(242, 238, 238);
+	box-shadow: v-shadow ;
+}
+.chose .size{
+	font-size: 25px;
+	
+}
+.chose .number{
+	font-size: 25px;
+}
+select{
+	width: 200px;
+	height: 20px;
+	border: 20px ;
+}
+.corr{
+	text-align: center;
+}
+.illustration{
+	margin: auto;
+	float: right;
+	margin-top: 30px;
+}

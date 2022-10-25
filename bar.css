@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*搜索框*/
+.box4{
+    position: absolute;
+    top: -30px;
+    left: 1120px;
+}
+
+.container .input{
+	border: 0;
+	outline: none;
+	color: #daf8e6;
+}
+
+.search_wrap{
+	width: 90px;
+	margin: 38px auto;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 80px;
+	height: 20px;
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 130%;
+	height: 100%;
+	padding: 20px 10px;
+	border-radius: 50px;
+	font-size: 18px;
+    background-color: #ffffff;
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0;
+	left: 150px;
+	width: 20px;
+	height: 5%;
+	background: #7ebaa9;
+	z-index: 1;
+	cursor: pointer;
+    
+}
+
+.search_wrap .search_box .btn:hover{
+	background: #8ed0e5;	
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: rgb(182, 168, 231);
+	font-size: 20px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input{
+	border-radius: 50px;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn{
+	width: 100px;
+	height: 45px;
+	top: 8px;
+	right: 5px;
+	border-radius: 3px;
+	color: rgb(247, 244, 243);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn{
+	border-radius: 25px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input{
+	padding-right: 145px;
+}
+
+/*bar*/
+
+.img-01{
+    width: 100%;
+    height: 140px;
+}
+
+.header .logo img{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    width: 140px;
+    height: 140px;
+    margin-left: 50px;
+    float: left;
+}
+.header .menu{
+    height: 100px;
+    float: right;
+}
+
+.show{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.show img{
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+.content1 {
+    width:26% !important;
+    position: absolute;
+    left:60%;
+    top:160px;
+    /* border:solid 1px blue; */
+    padding:10px 20px;
+}
+h2{
+    font-size: x-large;
+    padding:15px 10px;
+}
+
+.content .icon{
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    left: 80%;
+}
+
+.content1 .icon1{
+    z-index: 2;
+    position: absolute;
+    top: -75px;
+    left: 85%;
+}
+
+.img-02{
+    position: absolute;
+    top: 10px;
+    left: 470px;
+    width: 30%;
+    height: 110px;
+}
+
